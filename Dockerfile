@@ -19,8 +19,8 @@ COPY . .
 # Variables por defecto (puedes sobreescribir en el Deployment/BuildConfig)
 ENV DB_HOST=postgresql \
     DB_NAME=nutriswap \
-    DB_USER=postgres \
-    DB_PASSWORD=changeme \
+    DB_USER=proof_admin \
+    DB_PASSWORD=conexion_s4gur0 \
     DB_PORT=5432 \
     FILE_PATH=/opt/app-root/src/smaecsv-og.xlsx \
     TABLE_NAME=alimentos

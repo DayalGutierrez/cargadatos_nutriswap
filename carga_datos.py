@@ -39,14 +39,14 @@ def insert_excel_to_postgresql(file_path, db_config, table_name):
 
 # Configuración de conexión a la base de datos
 db_config = {
-    'host': 'localhost',     # Cambia según tu configuración
+    'host': 'postgresql',     # Cambia según tu configuración
     'database': 'nutriswap',   # Nombre de tu base de datos
-    'user': 'postgres',      # Usuario de PostgreSQL
-    'password': '1234567',  # Contraseña de PostgreSQL
+    'user': 'proof_admin',      # Usuario de PostgreSQL
+    'password': 'conexion_s4gur0',  # Contraseña de PostgreSQL
 }
 
 # Parámetros del archivo Excel y la tabla
-file_path = "smaecsv-og.xlsx"  # Ruta completa al archivo Excel
+file_path = "/opt/app-root/src/smaecsv-og.xlsx"  # Ruta completa al archivo Excel
 table_name = "alimentos"            # Nombre de la tabla existente en PostgreSQL
 
 # Ejecutar la función
