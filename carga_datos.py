@@ -46,7 +46,7 @@ db_config = {
 }
 
 # Parámetros del archivo Excel y la tabla
-file_path = "/opt/app-root/src/smaecsv-og.xlsx"  # Ruta completa al archivo Excel
+file_path = "smaecsv-og.xlsx"  # Ruta completa al archivo Excel
 table_name = "alimentos"            # Nombre de la tabla existente en PostgreSQL
 
 # Ejecutar la función
