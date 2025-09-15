@@ -22,7 +22,7 @@ ENV DB_HOST=postgresql \
     DB_USER=proof_admin \
     DB_PASSWORD=conexion_s4gur0 \
     DB_PORT=5432 \
-    FILE_PATH=/opt/app-root/src/smaecsv-og.xlsx \
+    FILE_PATH=smaecsv-og.xlsx \
     TABLE_NAME=alimentos
 
 # OpenShift corre con UID arbitrario; esta imagen ya está preparada,
